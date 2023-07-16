@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country</title>
+    <script src="country.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,regular,500,600,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="country.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header-content">
+        <h2 class="title"><a href="/">Where in the world?</a></h2>
+        <p class="theme-changer"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+      </div>
+    </header>
+    <main class="main-section">
+      <button class="back-button" onclick="history.back()">
+        <i class="fa-solid fa-arrow-left-long"></i>&nbsp;&nbsp;Back
+      </button>
+      <div class="country-details">
+        <div class="country-flag">
+          <img />
+        </div>
+        <div class="details-text-container"></div>
+      </div>
+    </main>
+  </body>
+</html>
